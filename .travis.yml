@@ -1,0 +1,3 @@
+script: "rebar eunit"
+notifications:
+  disabled: true
