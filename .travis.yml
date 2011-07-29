@@ -1,3 +1,3 @@
-script: "./rebar eunit && ./rebar dialyze"
+script: "./rebar dialyze"
 notifications:
   disabled: true
