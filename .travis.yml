@@ -1,5 +1,5 @@
 target: erlang
-script: "./rebar compile eunit dialyze verbose=1"
+script: "./rebar compile eunit"
 notifications:
   disabled: true
 env:
