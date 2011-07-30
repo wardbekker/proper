@@ -1,3 +1,4 @@
+target: erlang
 script: "./rebar compile eunit dialyze verbose=1"
 notifications:
   disabled: true
