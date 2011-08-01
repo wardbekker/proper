@@ -1,7 +1,8 @@
 target: erlang
-script: "./rebar compile eunit"
+script: "./rebar eunit"
 notifications:
   disabled: true
 env:
   - ERL_LIBS=/usr/local/erlang/R14B03 PATH=$PATH:/usr/local/erlang/R14B03/bin
   - ERL_LIBS=/usr/local/erlang/R13B04 PATH=$PATH:/usr/local/erlang/R13B04/bin
+  - ERL_LIBS=/usr/local/erlang/R12B-5 PATH=$PATH:/usr/local/erlang/R12B-5/bin
